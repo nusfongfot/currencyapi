@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CurrencyApi</title>
+    <link rel="stylesheet" href="cur.css" />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Currency Exchange Rate</header>
+      <input class="input" type="text" id="currency" />
+
+      <div class="drop-list">
+        <div class="form">
+          <p class="text-p">From</p>
+          <div class="select-box">
+            <img
+              src="https://countryflagsapi.com/svg/THA"
+              alt="flag"
+              style="width: 70px; height: 40px"
+            />
+            <select class="selectStyle">            
+            </select>
+          </div>
+        </div>
+          <div class="icon"><i class="icon-exchange icon-2x"></i></div>
+          <div class="to">
+            <p>To</p>
+            <div class="select-box">
+              <img
+                src="https://countryflagsapi.com/svg/USA"
+                alt="flag"
+                style="width: 70px; height: 40px"
+              />
+              <select class="selectStyle">           
+              </select>
+            </div>
+          </div>
+          <div class="exchange-rate" id="exchangeresult"></div>
+      </div>
+    </div>
+
+    <script src="currency.js"></script>
+  </body>
+</html>
